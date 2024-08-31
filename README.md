@@ -1,5 +1,3 @@
-# Save the README content to a file
-readme_content = """
 # PyTorch Neural Network Classification Models
 
 This repository contains PyTorch implementations of two neural network classification models:
