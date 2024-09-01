@@ -1,39 +1,78 @@
+
 # PyTorch Neural Network Classification Models
 
-This repository contains PyTorch implementations of two neural network classification models:
-
-1. **CelebA Dataset**: A multi-label classification model using the CelebA dataset.
-2. **MNIST Dataset**: A single-label classification model using the MNIST dataset.
+This repository contains a Jupyter notebook demonstrating the implementation of neural network classification models using PyTorch. The notebook includes step-by-step guidance on building, training, and evaluating neural networks for various classification tasks.
 
 ## Table of Contents
-
 - [Project Overview](#project-overview)
-- [Setup and Installation](#setup-and-installation)
+- [Features](#features)
+- [Installation](#installation)
 - [Usage](#usage)
-- [Models](#models)
+- [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Project Overview
 
-The primary goal of this project is to demonstrate the implementation of convolutional neural networks (CNNs) using PyTorch for image classification tasks. The project includes models for both multi-label classification (CelebA dataset) and single-label classification (MNIST dataset).
+The **PyTorch Neural Network Classification Models** notebook is designed to provide a comprehensive guide to building and deploying classification models using PyTorch. The notebook covers various essential topics, including:
 
-## Setup and Installation
+- Data preprocessing
+- Model architecture design
+- Model training and evaluation
+- Hyperparameter tuning
+- Model performance metrics
 
-### Prerequisites
+## Features
 
-- Python 3.9 or later
-- Conda (recommended) or pip for managing dependencies
-- CUDA-enabled GPU (optional, for faster training)
+- **Data Loading & Preprocessing**: Load and preprocess datasets for training neural networks.
+- **Model Building**: Construct various neural network architectures tailored for classification tasks.
+- **Training & Evaluation**: Train the models using PyTorch's built-in functions and evaluate their performance.
+- **Visualization**: Generate plots to visualize model performance, including accuracy and loss curves.
 
-### Installation
+## Installation
 
-1. **Clone the repository**:
+To run this notebook, ensure you have the following software installed:
 
+- Python 3.8+
+- Jupyter Notebook or JupyterLab
+- PyTorch
+- NumPy
+- Matplotlib
+- Pandas
+
+You can install the required Python packages using pip:
+
+```bash
+pip install torch numpy matplotlib pandas jupyterlab
+```
+
+## Usage
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/LiquidAzir/PyTorch-NN-Classification.git
-   cd PyTorch-NN-Classification
+   git clone https://github.com/your-username/PyTorch_Neural_Network_Classification_Models.git
+   cd PyTorch_Neural_Network_Classification_Models
+   ```
 
-2. **Create a Conda environment:**:
+2. Launch the Jupyter notebook:
+   ```bash
+   jupyter notebook PyTorch_Neural_Network_Classification_Models.ipynb
+   ```
 
+3. Follow the instructions in the notebook to run each cell and observe the results.
 
+## Results
+
+The notebook includes example outputs such as:
+
+- Confusion matrices for evaluating model performance.
+- Accuracy and loss curves to monitor training progress.
+- Final classification results on test datasets.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions for improving this project, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
