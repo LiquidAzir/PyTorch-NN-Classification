@@ -33,4 +33,7 @@ The primary goal of this project is to demonstrate the implementation of convolu
    ```bash
    git clone https://github.com/LiquidAzir/PyTorch-NN-Classification.git
    cd PyTorch-NN-Classification
-# PyTorch-NN-Classification
+
+2. **Create a Conda environment:**:
+
+
